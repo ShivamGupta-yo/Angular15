@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.container div{
+    width: 500px;
+    text-align: justify;
+}
+
+.project{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 1px 1px 10px 10px rgb(34, 34, 225) ;
+    z-index: 0;
+}
+
+
+
+img{
+  
+     margin: 20px 0px 0px 60px;
+        border-radius: 10px;
+      
+    transition: transform 0.3s;
+    }
+
+    h2{
+        text-align: center;
+        margin: 10px;
+    }
+
+    .project:hover{
+        box-shadow: 0px 0px 100px 10000px rgba(0, 0, 0, 0.6);
+        transition: 0.3s ease-in-out;
+    
+      
+    }
+
+   

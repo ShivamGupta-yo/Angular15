@@ -1,0 +1,47 @@
+
+nav{
+    display: flex;
+ 
+    background: rgb(54, 46, 143);
+   justify-content: space-between;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+
+}
+
+nav a{
+    background: rgb(54, 46, 143);
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+
+}
+
+nav a:hover{
+    background: black;
+    transition: 0.4s ease-in-out;
+  border-radius: 5px ;
+
+    
+
+}
+
+
+
+button{
+    border: none;
+    background: black;
+    border-radius: 13px;
+    padding: 8px;
+    margin-top: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+button a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}

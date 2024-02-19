@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    margin: 20px;
+    text-decoration:  underline;
+}
+
+.about p{
+    font-size: 18px;
+    line-height:  25px;
+    margin: 5px;
+    text-align: justify;
+    color: white;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+ 
+}
+
+.flex div{
+ border-radius: 20px;
+}
+.flex div h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.flex div ul li{
+list-style-type: none;
+color: white;
+padding: 5px;
+}
+
+.experiences, .education, .skills{
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 1px 1px 10px 10px rgb(24, 24, 197);
+
+}
+
+ .flex div span{
+    font-size: 20px;
+    color:rgb(225, 207, 12);
+    font-weight: 600;
+    position: relative;
+    
+   
+}
+.flex div:hover{
+    color: white;
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+}
+

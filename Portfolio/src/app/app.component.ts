@@ -11,9 +11,16 @@ import { Account } from './account';
 })
 export class AppComponent {
   title = 'Portfolio';
+  name:string="Shivam";
+  col:number=2;
+  fname:string="INDIA";
 //   constructor(private ob: Employee, private obj: Account){
 // ob.show(10,20)
 //   }
+
+onClick(){
+  alert('subscribed')
+}
   
 }
 

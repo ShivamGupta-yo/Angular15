@@ -7,12 +7,22 @@ import { StudentComponent } from './student/student.component';
 import { BooksComponent } from './books/books.component';
 import { Employee } from './employee';
 import { Account } from './account';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentComponent,
-    BooksComponent
+    BooksComponent,
+    HomeComponent,
+    AboutComponent,
+    ProjectsComponent,
+    ContactComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

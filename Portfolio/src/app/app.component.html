@@ -481,5 +481,47 @@
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<app-books></app-books>
-<router-outlet></router-outlet>
+ <!-- <app-home></app-home> -->
+<!--<app-about></app-about>
+<app-projects></app-projects>
+<app-contact></app-contact> -->
+
+
+<nav>
+  <a [routerLink]="['/Home']">HOME</a>
+  <a [routerLink]="['/About']">ABOUT </a>
+  <a [routerLink]="['/Projects']">PROJECTS</a>
+  <a [routerLink]="['/Contact']">CONTACT US</a>
+</nav>
+<!-- <button><a [routerLink]="['/Login']">Login Here</a></button> -->
+
+<div>
+
+  <!-- <router-outlet></router-outlet> -->
+
+  <h1>Importing the name from ts file</h1>
+  <p>this is imported name : {{name}}</p>
+  <span [innerHTML]="title"></span>
+  <br>
+ firstname:  <span [innerHTML]="fname"></span>
+ <img src="https://images.unsplash.com/photo-1574169208507-84376144848b?q=80&w=1779&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" height="500" width="500">
+</div>
+
+<table border="2">
+  <th>ID</th>
+  <th>Name</th>
+  <th>Roll No</th>
+
+  <tr>
+    <td [attr.colspan]="col">1</td>
+    <td>Shivam</td>
+    <td>44</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Gupta</td>
+    <td>15</td>
+  </tr>
+</table>
+
+<button (click)="onClick()">Subscribe</button>
